@@ -1,3 +1,0 @@
-([('MOV_2_MP3',
-   '/Users/mikevitelli/Code/MOV_2_MP3/dist/MOV_2_MP3',
-   'EXECUTABLE')],)

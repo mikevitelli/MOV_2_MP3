@@ -1,0 +1,23 @@
+# Build artifacts
+build/
+dist/
+*.spec
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS cruft
+.DS_Store
+
+# Windows cruft
+Thumbs.db
+desktop.ini
+
+# Virtual environments
+env/
+venv/
+
+# OS executables
+*.exe
+*.app
