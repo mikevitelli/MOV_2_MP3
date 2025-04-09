@@ -21,3 +21,6 @@ venv/
 # OS executables
 *.exe
 *.app
+
+# Bundles
+*.zip
