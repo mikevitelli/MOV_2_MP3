@@ -39,12 +39,14 @@ Whether you're a journalist, editor, student, or content creator, MOV_2_MP3 help
 
 ### 📥 Download:
 
-1. Head to the [Releases](https://github.com/yourusername/MOV_2_MP3/releases)
+1. Head to the [Releases](https://github.com/mikevitelli/MOV_2_MP3/releases)
 2. Download `MOV_2_MP3_macOS.zip`
 3. Unzip the file
 4. Move `MOV_2_MP3.app` to your Applications folder (optional)
 
 ### 🛡 First Time Running?
+
+## IMPORTANT!!
 
 macOS will block the app by default since it’s unsigned:
 
