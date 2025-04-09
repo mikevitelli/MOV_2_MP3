@@ -1,3 +1,33 @@
+## 🎧 MOV_2_MP3 – Lightweight Audio Extractor
+
+**MOV_2_MP3** is a simple, fast, and offline desktop application that converts `.MOV` video files into `.MP3` audio files with one click.
+
+It’s designed for:
+
+- **Transcription workflows**
+- **Audio extraction for editing or reference**
+- **Podcast prep**
+- **Note-taking from interviews or video calls**
+
+Whether you're a journalist, editor, student, or content creator, MOV_2_MP3 helps you quickly isolate audio from video files — no need for complex software or internet access.
+
+---
+
+### ✅ Features
+
+- Batch convert entire folders of `.mov` files
+- Output high-quality `.mp3` files
+- ffmpeg bundled — **no setup required**
+- Works 100% offline
+- Minimal interface, built for non-technical users
+
+---
+
+### 💻 Platform Support
+
+- macOS (see install directions below)
+- Windows version coming soon
+
 ## 🧪 INSTALL
 
 ### 🔧 System Requirements:
@@ -76,7 +106,21 @@ dist/
 
 ```bash
 cd dist
-zip -r MOV_2_MP3_macOS.zip MOV_2_MP3.app
+zip -r MOV_2_MP3_macOS.zip MOV_2_MP3
 ```
 
 You can now upload `MOV_2_MP3_macOS.zip` to GitHub Releases, Dropbox, etc.
+
+---
+
+MIT License
+
+Copyright (c) 2024 Mike Vitelli
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+...
