@@ -2,6 +2,8 @@
 
 **MOV_2_MP3** is a simple, fast, and offline desktop application that converts `.MOV` video files into `.MP3` audio files with one click.
 
+~98% reduction in file size when converting .mov → .mp3 🎯
+
 It’s designed for:
 
 - **Transcription workflows**
