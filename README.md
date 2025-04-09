@@ -1,21 +1,82 @@
-## MOV_2_MP3 – Audio Converter
+## 🧪 INSTALL
 
-How to Use:
+### 🔧 System Requirements:
 
-1. Unzip the download
-2. Open MOV_2_MP3.exe
-3. Select a folder with .mov files
-4. Check the new "mp3_output" folder inside for the converted audio
+- macOS 11.0 or higher
+- Intel or Apple Silicon (M1/M2/M3) compatible
 
-🛡 macOS Security Note
-When opening MOV_2_MP3 for the first time:
+### 📥 Download:
 
-Right-click the app and select "Open"
+1. Head to the [Releases](https://github.com/yourusername/MOV_2_MP3/releases)
+2. Download `MOV_2_MP3_macOS.zip`
+3. Unzip the file
+4. Move `MOV_2_MP3.app` to your Applications folder (optional)
 
-Then click "Open" in the warning popup
+### 🛡 First Time Running?
 
-This is normal for non-App Store apps
+macOS will block the app by default since it’s unsigned:
 
-You only have to do this once
+1. **Right-click** (or Control-click) on `MOV_2_MP3.app`
+2. Select **“Open”**
+3. Click **“Open”** again in the popup
+4. You’re in! 🎉
 
-No tech skills needed. Just double-click and go.
+---
+
+## 🛠 BUILD (for Developers)
+
+### 🔧 Prerequisites:
+
+- macOS
+- Python 3.10 or 3.11
+- [PyInstaller](https://pyinstaller.org) installed:
+
+  ```bash
+  pip install pyinstaller
+  ```
+
+- [FFmpeg](https://ffmpeg.org/) (macOS binary placed next to the script):
+  ```bash
+  brew install ffmpeg
+  ```
+
+Or manually download a static macOS binary and place it as `ffmpeg` (not `.exe`).
+
+---
+
+### 📁 Project Folder Structure:
+
+```
+MOV_2_MP3/
+├── MOV_2_MP3.py
+├── ffmpeg                 # macOS binary, not .exe
+├── icon.icns              # Optional app icon
+├── README.md
+├── .gitignore
+```
+
+---
+
+### 🧱 Build the App:
+
+```bash
+pyinstaller --onefile --windowed --icon=icon.icns --add-binary=ffmpeg:. MOV_2_MP3.py
+```
+
+This will generate:
+
+```
+dist/
+└── MOV_2_MP3.app
+```
+
+---
+
+### 📦 Create a Shareable Zip:
+
+```bash
+cd dist
+zip -r MOV_2_MP3_macOS.zip MOV_2_MP3.app
+```
+
+You can now upload `MOV_2_MP3_macOS.zip` to GitHub Releases, Dropbox, etc.
